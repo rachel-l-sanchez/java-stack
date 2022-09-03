@@ -1,5 +1,6 @@
 import java.util.Random;
 import java.util.ArrayList;
+import java.util.*;
 
 
 public class PuzzleJava {
@@ -43,6 +44,8 @@ public class PuzzleJava {
             String fullPassword = Character.toString(passwordLetter);
             passwordSet.add(fullPassword);
         }
+        System.out.println(passwordSet);
+        Collections.shuffle(passwordSet);
         System.out.println(passwordSet);
         return passwordSet;
     }
