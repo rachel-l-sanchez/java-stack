@@ -34,7 +34,7 @@ public class Order {
     }
 
     public String getStatusMessage() {
-        if (isReady == true) {
+        if (this.isReady == true) {
             return "Your order is ready";
         }
         else {

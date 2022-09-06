@@ -56,7 +56,7 @@ public class OrderTest {
         order2.getOrderTotal(5.0, 1, menu.get(1), items);
        
         order2.orderReady(true);
-    
+        System.out.println("Noah:" + order2.getStatusMessage());
     
 
 
