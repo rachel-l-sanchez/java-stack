@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-
-public class OrderTest {
-    public static void main(String[] args) {
+import java.util.ArrayList; public static void main(String[] args) {
 
         // Menu items
         ArrayList<String> menu = new ArrayList<String>();
