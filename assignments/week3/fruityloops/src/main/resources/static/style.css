@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.container {
+	background-color:purple;
+	min-height: 50%;
+}
+
+.table tr td {
+	background-color: white;
+	min-height: 100%;
+	max-width: 50%;
+	display: flex;
+	gap: 100px;
+}
+
+
+body {
+	font-size: 16pt;
+}
+
+th {
+	margin-left: 50px;
+	text-align: center;
+}
+
+#tablehead tr th {
+	margin-left: 0 auto;
