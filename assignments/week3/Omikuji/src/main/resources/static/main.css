@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.Omikujiform {
+	position: absolute;
+	left: 300px;
+}
+
+.text {
+	background-color: blue;
+}
+
+
+.container, main, body {
+	width: 250px;
+}
