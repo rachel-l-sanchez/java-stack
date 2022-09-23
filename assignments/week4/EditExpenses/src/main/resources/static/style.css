@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+table, form, div {
+	display: flex;
+	justify-content: center;
+}
+
+table, th, td {
+	gap: 5px; 
+	text-align: center;
+	
+}
+
+
+form {
+	gap: 10px;
+	flex-direction: column;
+	margin-left: 0 auto;
+	
+}
+
+input, textarea, button {
+	width: 100%;
+}
+
+div {
+	width: 60%;
+	margin-left: 20%;
+}
+
+table {
+	min-width: 80%;
+}
+
+ body {
+ 	width: 100%;
+ }
