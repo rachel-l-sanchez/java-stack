@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-table, form, div {
+table, form, div, a {
 	display: flex;
 	justify-content: center;
 }
@@ -19,11 +19,25 @@ form {
 	
 }
 
-input, textarea, button {
+input, textarea {
 	width: 100%;
 }
 
 div {
 	width: 60%;
 	margin-left: 20%;
+}
+
+a {
+	gap: 20px; 
+	align-items: center;
+}
+
+table, td, th, tr{
+	width: 100%;
+}
+
+
+body {
+	width: 80%;
 }

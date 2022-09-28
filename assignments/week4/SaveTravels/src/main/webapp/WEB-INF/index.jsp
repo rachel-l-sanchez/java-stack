@@ -28,7 +28,7 @@
 		</c:forEach>
 	</table>
 	<div class="grid text-center d-flex justify-content-center">
-		<form:form method = "post" class="d-flex flex-col justify-content-center flex-wrap justify-content-center" action="/travel/add" modelAttribute="travel">
+		<form:form method = "post" class="d-flex flex-col justify-content-center flex-wrap justify-content-center" action="/expense/add" modelAttribute="travel">
 			<h2 class="text-primary">Add an Expense</h2>
 			<form:label path="expense">Expense Name:</form:label>
 			<form:errors path="expense"/>

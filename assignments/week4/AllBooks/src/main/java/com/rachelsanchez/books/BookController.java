@@ -1,4 +1,4 @@
-package com.rachelsanchez.books.controllers;
+package com.rachelsanchez.books;
 
 
 import java.util.List;

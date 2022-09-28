@@ -50,7 +50,6 @@ public class Travel {
 	@NotEmpty
 	@Size(min=5, max=100)
 	private String description;
-	
 
 	
 	public Travel(Long id, @NotNull(message = "Size should be greater than 0") @Min(1) Integer amount,
@@ -70,6 +69,11 @@ public class Travel {
 	public  Travel() {
 	}
 	
+	public Travel(Long id) {
+		// TODO Auto-generated constructor stub
+		this.id = id;
+	}
+
 	@PrePersist
 	protected void onCreate() {
 		this.createdAt = new Date();
@@ -135,6 +139,10 @@ public class Travel {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+
+	
+
+	
 	
 
 }
