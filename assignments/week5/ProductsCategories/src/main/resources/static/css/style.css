@@ -1,0 +1,13 @@
+.registration,.login{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+tr th{
+	display: inline-flex;
+}
+
+table {
+	max-width: 20%;
+}
