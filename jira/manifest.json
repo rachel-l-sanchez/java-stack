@@ -1,0 +1,23 @@
+{
+    "name": "Add to Jira",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "latest bug",
+    "author": "Rachel Sanchez",
+
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
+    "icons": {
+        "16": "./favicon16x16.png",
+        "32": "./icons/favicons-32x32.png",
+        "64": "./icons/favicon-64x64.png",
+        "128": "./icons/favicon-128x128.png"
+    },
+    "web_accessible_resources": ["inject-script.js"],
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ]
+}
